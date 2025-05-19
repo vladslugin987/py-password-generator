@@ -15,7 +15,7 @@ class PasswordGeneratorApp:
 
         # --- Style ---
         self.style = ttk.Style()
-        self.style.theme_use('clam')  # Using a modern theme
+        self.style.theme_use('clam')
 
         # --- Variables for UI elements ---
         self.length_var = tk.IntVar(value=16)  # Default password length
